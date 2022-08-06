@@ -1,0 +1,64 @@
+:root {
+    --color-primary: hsl(212, 45%, 89%);
+        --color-grayishblue: hsl(220, 15%, 55%);
+        --color-darkblue: hsl(218, 44%, 22%);
+        --color-white: hsl(0, 0%, 100%);
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--color-grayishblue);
+    text-align: center;
+}
+.main-section {
+    display: block;
+    text-align: center;
+    margin: 70px auto;
+    background-color: var(--color-white);
+    width: 350px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.image-section {
+    margin: 0 auto;
+   /* padding: 100px; */
+}
+.qr-code {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+}
+.hero-section {
+width: 300px;
+margin: 0 auto;
+}
+.hero-header{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 700px;
+    color: var(--color-darkblue);
+}
+.hero-description {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400px;
+    color: var(--color-grayishblue)
+;
+    
+}
+
+
+
+
+.attribution  {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color:var(--color-white)
+}
+.attribution a:hover {
+    color: var(--color-darkblue);
+}
